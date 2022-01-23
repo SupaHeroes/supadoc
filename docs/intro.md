@@ -3,34 +3,20 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Supaheroes in less than 5 minutes**.
 
-## Getting Started
+## What is Supaheroes?
 
-Get started by **creating a new site**.
+Supaheroes is a decentralized crowdfunding ecosystem for both private and public goods. It consists not only a blockchain application, but also a live community of philanthropist, investors, business owners, blockchain developer, and also enthusiasts!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Weather you are a hobbyist or a business owner, start and grow your projects using our platform to gain access to the latest crowdfunding innovations on the blockchain. Getting funded by your fans is a way better start than getting a loan from the bank. According to statistics, 8/10 projects that were funded by the crowd will succeed the first year. That statistic is 8x better than being funded by private investors and 15x better than getting getting a bank loan to bootstrap your project.
 
-## Generate a new site
+## Who are the Supaheroes?
 
-Generate a new Docusaurus site using the **classic template**:
+Supaheroes are those who have commited positive impact to society. Weather you are a business owner building a merit goods or a social charity group, you are the Supaheroes!
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+## What is the current phase of Supaheroes?
 
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+Supaheroes is currently being built by Supaheroes Lab, the team behind the project. We are polishing our user-experience and engaging other builders to build on top of our open-source code. If you want to be a part of the community in this very early phase, we welcome you to join our Discord as well as follow our Twitter for more updates!

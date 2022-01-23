@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Supaheroes Docs',
-  tagline: 'Provide platforms for superheroes',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Helping projects everyday',
+  url: 'https://docs-supaheroes.netlify.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/supalogo.png',
   organizationName: 'Supaheroes', // Usually your GitHub org/user name.
   projectName: 'Supaheroes', // Usually your repo name.
 
@@ -25,13 +25,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: "/",
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/SupaHeroes/supadoc/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,7 +41,7 @@ const config = {
         title: 'Supaheroes Docs',
         logo: {
           alt: 'Supaheroes Logo',
-          src: 'img/logo.svg',
+          src: 'img/supalogo.png',
         },
         items: [
           {
@@ -56,10 +50,15 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SupaHeroes',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/cbsRDZ8z',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -68,11 +67,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Website',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Supaheroes.fund',
+                href: 'https://supaheroes.fund',
               },
             ],
           },
@@ -81,24 +80,20 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/cbsRDZ8z',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/SupaheroesFund',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Build',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/SupaHeroes',
               },
             ],
           },
