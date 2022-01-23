@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/supalogo.png',
+  favicon: 'img/SUPALOGOXBG.png',
   organizationName: 'Supaheroes', // Usually your GitHub org/user name.
   projectName: 'Supaheroes', // Usually your repo name.
 
@@ -41,7 +41,7 @@ const config = {
         title: 'Supaheroes Docs',
         logo: {
           alt: 'Supaheroes Logo',
-          src: 'img/supalogo.png',
+          src: 'img/SUPALOGOXBG.png',
         },
         items: [
           {
