@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Active Collective
 
-Supaheroes uses an experimental **Active Collective Funding Algorithm** to distribute grants dynamically based on market behavior. The algorithm is loosely based on [cooperative game theory](https://en.wikipedia.org/wiki/Cooperative_game_theory).
+Supaheroes uses an experimental [Active Collective Funding Algorithm](https://axeldevara.medium.com/active-collective-funding-using-game-theory-to-fund-public-goods-54c92f6fd04e) to distribute grants dynamically based on market behavior. The algorithm is loosely based on [cooperative game theory](https://en.wikipedia.org/wiki/Cooperative_game_theory).
 
 ## How Active Collective model works
 
